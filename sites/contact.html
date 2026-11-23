@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f7f5">
     <title>お問い合わせ - mimopy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>mimopy お問い合わせ</h1>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="mimopy トップページ">mimo<span>py</span></a>
+        <nav class="site-nav" aria-label="メインナビゲーション">
+            <a href="index.html">トップ</a>
+            <a href="terms.html">利用規約</a>
+            <a href="privacy.html">プライバシー</a>
+            <a href="contact.html" aria-current="page">お問い合わせ</a>
+        </nav>
+    </header>
 
+    <main class="page-shell">
+        <header class="page-heading">
+            <p class="eyebrow">Contact</p>
+            <h1>mimopy お問い合わせ</h1>
+        </header>
+
+        <article class="page-content">
     <p>
         mimopyに関するお問い合わせ、不具合のご報告、
         ご意見・ご要望などは、以下のメールアドレスまでお願いいたします。
@@ -16,7 +33,7 @@
     <h2>お問い合わせ先</h2>
 
     <p>
-        <a href="mailto:bmwzzt231@gmail.com">
+        <a class="contact-email" href="mailto:bmwzzt231@gmail.com">
             bmwzzt231@gmail.com
         </a>
     </p>
@@ -41,7 +58,13 @@
         回答および問題の確認・対応のために利用します。
     </p>
 
-    <hr>
-    <p><a href="index.html">トップページへ戻る</a></p>
+            <hr>
+            <p><a class="back-link" href="index.html">トップページへ戻る</a></p>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <p>© mimopy</p>
+    </footer>
 </body>
 </html>

@@ -3,18 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mimopy</title>
+    <meta name="theme-color" content="#f5f7f5">
+    <meta name="description" content="mimopyに関する情報をご案内します。">
+    <title>mimopy | 公式サイト</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>mimopy</h1>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="mimopy トップページ">mimo<span>py</span></a>
+        <nav class="site-nav" aria-label="メインナビゲーション">
+            <a href="index.html" aria-current="page">トップ</a>
+            <a href="terms.html">利用規約</a>
+            <a href="privacy.html">プライバシー</a>
+            <a href="contact.html">お問い合わせ</a>
+        </nav>
+    </header>
 
-    <p>mimopyに関する情報をご案内します。</p>
+    <main class="page-shell home-shell">
+        <section class="home-hero" aria-labelledby="home-title">
+            <p class="eyebrow">mimopy information</p>
+            <h1 id="home-title">mimopy</h1>
+            <p>mimopyに関する情報をご案内します。</p>
+        </section>
 
-    <h2>Links</h2>
-    <ul>
-        <li><a href="terms.html">利用規約</a></li>
-        <li><a href="privacy.html">プライバシーポリシー</a></li>
-        <li><a href="contact.html">お問い合わせ</a></li>
-    </ul>
+        <section class="link-section" aria-labelledby="information-title">
+            <h2 id="information-title">ご案内</h2>
+            <ul class="link-list">
+                <li><a href="terms.html">利用規約</a></li>
+                <li><a href="privacy.html">プライバシーポリシー</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© mimopy</p>
+    </footer>
 </body>
 </html>
